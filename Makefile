@@ -2,7 +2,6 @@ TEMP_DIR := $(shell mktemp -d)
 ifndef EXE
 	EXE = lc0
 endif
-
 all:
 	git clone https://github.com/Ergodice/lc0 -b update $(TEMP_DIR)
 	cd $(TEMP_DIR) && ./build.sh
