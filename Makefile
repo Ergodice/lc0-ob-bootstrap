@@ -7,3 +7,4 @@ all:
 	git clone https://github.com/Ergodice/lc0 -b better-scores-1 $(TEMP_DIR)
 	cd $(TEMP_DIR) && ./build.sh
 	mv $(TEMP_DIR)/build/release/lc0 $(EXE)
+
