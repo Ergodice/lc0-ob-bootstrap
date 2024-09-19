@@ -4,6 +4,6 @@ ifndef EXE
 endif
 
 all:
-	git clone https://github.com/Ergodice/lc0 -b ch2 $(TEMP_DIR)
+	git clone https://github.com/Ergodice/lc0 -b ch3 $(TEMP_DIR)
 	cd $(TEMP_DIR) && ./build.sh
 	mv $(TEMP_DIR)/build/release/lc0 $(EXE)
